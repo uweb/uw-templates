@@ -1,0 +1,29 @@
+//
+  A menu in the sidebar is not wrapped by a div
+
+
+nav(role='navigation', aria-label='relative')
+  ul.uw-sidebar-menu.first-level
+    li.pagenav
+      a.homelink(href='#', title='Home') Home
+      ul
+        li.page_item_has_children.current_page_ancestor.current_page_parent
+          a(href='#') First Item
+          ul.children
+            li.current_page_item
+              a(href='#') Current Menu Item
+            li
+              a(href='#') Sub Menu Item
+            li
+              a(href='#') Sub Menu Item
+
+//
+  Any div within the sidebar must have .widget class for proper spacing
+  The Boundless bar will show under any header with a class widgettitle
+
+
+div.widget
+  h2.widgettitle Sidebar Content
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque nesciunt, similique ad suscipit sint in corporis pariatur quia numquam quidem deserunt amet animi laudantium non culpa eligendi error, quae nemo.
+  h3 Subtitle
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit.

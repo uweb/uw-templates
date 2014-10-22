@@ -1,0 +1,10 @@
+{
+  "name": "UW Web Templates",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-jade": "*",
+    "grunt-notify": "*"
+  }
+}
