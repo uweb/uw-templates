@@ -2,24 +2,26 @@ include ./includes/doctype.jade
   include ./includes/head.jade
 
   body
-    include ./includes/header.jade
-    include ./includes/thinstrip.jade
-    include ./includes/dropdowns.jade
-    div.uw-hero-image.no-hero
+    div#uw-container
+        div#uw-container-inner
+            include ./includes/header.jade
+            include ./includes/thinstrip.jade
+            include ./includes/dropdowns.jade
+            div.uw-hero-image.no-hero
 
-    div.container.uw-body
+            div.container.uw-body
 
-      div.row
-        div.col-md-8(role='main')
+              div.row
+                div.col-md-8(role='main')
 
-          a(href="#", title="SITE TITLE")
-            h2.uw-site-title SITE TITLE
+                  a(href="#", title="SITE TITLE")
+                    h2.uw-site-title SITE TITLE
 
-          div#main_content.uw-body-copy
-            include ./includes/lorem.jade
+                  div#main_content.uw-body-copy
+                    include ./includes/lorem.jade
 
-         div.col-md-4.uw-sidebar
-          include ./includes/widget.jade
+                 div.col-md-4.uw-sidebar
+                  include ./includes/widget.jade
 
 
-  include ./includes/footer.jade
+            include ./includes/footer.jade
