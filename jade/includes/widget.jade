@@ -1,8 +1,9 @@
-//
-  A menu in the sidebar is not wrapped by a div
-
+// A menu in the sidebar is not wrapped by a div, but by an html5 nav element
 
 nav(role='navigation', aria-label='relative')
+
+  // This menu should show pages relative to this page. We recommend using the hierarchy as shown below
+
   ul.uw-sidebar-menu.first-level
     li.pagenav
       a.homelink(href='#', title='Home') Home

@@ -18,6 +18,8 @@
   <body>
     <div id="uw-container">
       <div id="uw-container-inner">
+        <!--start thinstrip header
+        -->
         <div class="uw-thinstrip">
           <nav role="navigation" aria-label="audience based" class="uw-thin-strip-nav">
             <ul class="uw-thin-links">
@@ -52,17 +54,29 @@
           </nav>
           <div class="container"><a href="http://uw.edu" title="University of Washington Home" tabindex="-1" aria-hidden="true" class="uw-patch">Home</a><a href="http://uw.edu" title="University of Washington" tabindex="-1" aria-hidden="true" class="uw-wordmark">Home</a></div>
         </div>
+        <!--end thinstrip header
+        -->
         <div class="uw-hero-image"></div>
         <div class="container uw-body">
           <div class="row">
-            <div role="main" class="col-md-8"><a href="#" title="SITE TITLE">
+            <div role="main" class="col-md-8">
+              <!--
+              this is the main content area. This is where you can start editing
+              below is the Site title. It should link back to the root (homepage of your site)
+              
+              --><a href="#" title="SITE TITLE">
                 <h2 class="uw-site-title">SITE TITLE</h2></a>
               <div id="main_content" class="uw-body-copy">
-                <!--Replace all this content with your own.
+                <!--
+                this is the main body area. Here is where the main content for this page should live
+                Replace all this content with your own.
+                
                 -->
+                <!-- below is the header. Make this the name of your page-->
                 <h1>Header</h1>
                 <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Sed posuere consectetur est at lobortis.</p>
                 <div class="info-box">
+                  <!-- this is an info box. You can delete the entire container to remove it or you can edit its content.-->
                   <h3>Info Box</h3>
                   <p>Small amount of information can be placed in here inside a "div.info-box" element</p>
                 </div>
@@ -72,12 +86,9 @@
               </div>
             </div>
             <div class="col-md-4 uw-sidebar">
-              <!--
-              A menu in the sidebar is not wrapped by a div
-              
-              
-              -->
+              <!-- A menu in the sidebar is not wrapped by a div, but by an html5 nav element-->
               <nav role="navigation" aria-label="relative">
+                <!-- This menu should show pages relative to this page. We recommend using the hierarchy as shown below-->
                 <ul class="uw-sidebar-menu first-level">
                   <li class="pagenav"><a href="#" title="Home" class="homelink">Home</a>
                     <ul>
@@ -107,6 +118,8 @@
             </div>
           </div>
         </div>
+        <!--Below is the UW footer. Leave as is
+        -->
         <div class="uw-footer"><a href="http://uw.edu" class="footer-wordmark">University of Washington</a><a href="http://uw.edu/boundless/be-boundless">
             <h3 class="be-boundless">BE BOUNDLESS</h3></a>
           <h4>Connect with us:</h4>
